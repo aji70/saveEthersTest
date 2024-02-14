@@ -46,6 +46,7 @@ describe("SaveEther Contract", function () {
       expect(userSavings).to.equal(depositAmount);
     });
   });
+
   describe("Withdraw Ether", function () {
     it("should revert if address zero tries to withdraw Ether", async function () {
       // Connect to the contract using the signer
